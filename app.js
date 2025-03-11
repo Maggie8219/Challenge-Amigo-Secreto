@@ -3,8 +3,7 @@ let arregloDeNombres = [];
 
 function agregarAmigo() {
     let ingresarNombre = document.getElementById('amigo').value;
-  //  let textoNombres = document.getElementById('listaAmigos');
-    
+  
     if (ingresarNombre == '') {
         alert('"Por favor, inserte un nombre."');
         return; 
@@ -18,7 +17,6 @@ function agregarAmigo() {
     }
 
     limpiarCaja();
-   
 }
 
 function mostrarNombre() {  
